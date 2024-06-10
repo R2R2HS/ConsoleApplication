@@ -61,6 +61,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Structures\Musics\Beep.cs" />
+    <Compile Include="Types\Structures\Musics\BeepsLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

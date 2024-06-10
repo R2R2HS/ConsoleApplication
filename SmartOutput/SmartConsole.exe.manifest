@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartConsole.exe" size="4608">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartConsole.exe" size="8704">
       <assemblyIdentity name="SmartConsole" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uzNSvuK4/GPOEAvXB6fuZ6yCHkn4ne3NRGvv0Y8pwss=</dsig:DigestValue>
+        <dsig:DigestValue>0hsVMsi4UQbxFpF46JAafQRPO/mEeN+Psof4A0eldYc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
