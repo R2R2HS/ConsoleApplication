@@ -9,7 +9,7 @@ namespace SmartConsole
 
 		private static void Main(string[] args)
 		{
-			string message = args.Length > 0 ? error : hello;
+			string message = args.Length == 0 ? hello : error;
 			Console.WriteLine(message);
 
 			//это чтоб точно не закрылось.
