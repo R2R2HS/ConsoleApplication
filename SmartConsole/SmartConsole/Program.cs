@@ -9,15 +9,10 @@ namespace SmartConsole
 
 		private static void Main(string[] args)
 		{
-			if (args.Length > 0)
-			{
-				Console.WriteLine(error);
-				return;
-			}
+			string message = args.Length > 0 ? error : hello;
+			Console.WriteLine(message);
 
-			Console.WriteLine(hello);
-
-			//Это чтоб не закрывалось, пон?
+			//это чтоб точно не закрылось.
 			Console.ReadLine();
 		}
 	}
